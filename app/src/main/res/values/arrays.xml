@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="loadingcolors">
+        <item>@color/primary</item>
+        <item>@color/primary_dark</item>
+        <item>@color/primary_orange</item>
+    </array>
+
+    <array name="eventtype_array">
+        <item>All</item>
+        <item>Public</item>
+        <item>Private</item>
+    </array>
+
+    <array name="eventattendance_array">
+        <item>All</item>
+        <item>Missed</item>
+        <item>Attended</item>
+    </array>
+
+    <array name="filter_attended_array">
+        <item>Attended</item>
+        <item>Absent</item>
+    </array>
+
+    <array name="filter_invited_array">
+        <item>Invited</item>
+        <item>Not Invited</item>
+    </array>
+</resources>

@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/primary</item>-->
+        <!--<item name="colorPrimaryDark">@color/primary_dark</item>-->
+        <item name="colorAccent">@color/primary_darker</item>
+        <item name="cpbStyle">@style/CircularProgressBar</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:divider">@color/white</item>
+
+
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+    <style name="NavigationTheme" parent="AppTheme">
+        <item name="android:listDivider">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+
+        <item name="android:scrollbarThumbVertical">@color/transparent</item>
+        <item name="android:textSize">14sp</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+    <style name="Toolbar_TextAppearance_White">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <!--<item name="android:shadowColor">@color/text_shadow</item>-->
+        <!--<item name="android:shadowDx">-2</item>-->
+        <!--<item name="android:shadowDy">-2</item>-->
+        <!--<item name="android:shadowRadius">1</item>-->
+    </style>
+
+    <style name="Toolbar_TextAppearance_Expanded">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="AppTheme.NoActionBar.SwipeBack">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="tab_appearance">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+
+
+</resources>

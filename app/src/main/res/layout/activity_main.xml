@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:isScrollContainer="false">
+
+
+    </FrameLayout>
+<!--//   app:menu="@menu/activity_main_drawer"-->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:theme="@style/NavigationTheme"
+        android:layout_gravity="start"
+
+        android:background="@color/primary_orange"
+        app:itemTextColor="@color/white"
+        android:fitsSystemWindows="true"
+        android:scrollbars="none"
+        >
+
+        <!--<include layout="@layout/nav_header_main"/>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:clickable="true"-->
+            <!--android:orientation="vertical">-->
+            <!--<include layout="@layout/nav_footer"/>-->
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <!--<include layout="@layout/nav_header_main" />-->
+
+            <se.emilsjolander.stickylistheaders.StickyListHeadersListView
+                android:id="@+id/lst_menu_items"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:divider="@null"
+                android:dividerHeight="0dp"  />
+
+            <include layout="@layout/row_navigation_footer" />
+
+        </LinearLayout>
+
+        </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>
+
+    <include layout="@layout/loading_animation"/>
+
+</FrameLayout>

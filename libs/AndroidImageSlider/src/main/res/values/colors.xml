@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="primary">#7aaedd</color>
+  <color name="primary_dark">#007790</color>
+  <color name="primary_darker">#005d85</color>
+  <color name="primary_orange">#f2a115</color>
+  <color name="accent">#FFFFFF</color>
+
+  <color name="black_translucent">#33000000</color>
+  <color name="black">#000000</color>
+  <color name="jet">#222222</color>
+  <color name="oil">#333333</color>
+  <color name="monsoon">#777777</color>
+  <color name="jumbo">#888888</color>
+  <color name="aluminum">#999999</color>
+  <color name="base">#AAAAAA</color>
+  <color name="iron">#CCCCCC</color>
+  <color name="white">#ffffff</color>
+  <color name="light_blue">#EDF4FB</color>
+
+  <color name="gray_light">#555555</color>
+  <color name="gray_very_light">#E5E7E9</color>
+
+  <color name="main_background">#d6d6d6</color>
+  <color name="text_gray">#6C7B8A</color>
+  <color name="text_bg">#F54A34</color>
+  <color name="transparent">#00ffffff</color>
+  <color name="primary_light">#EDF3F9</color>
+
+  <color name="edittext_basecolor">#CBD7E3</color>
+  <color name="edittext_primarycolor">#787878</color>
+
+  <color name="edittext_errorcolor">#E7492E</color>
+  <color name="edittext_textcolor">#4f5c69</color>
+  <color name="edittext_texthintcolor">#CAD7E3</color>
+  <color name="edittext_labelcolor">#A6B4C2</color>
+  <color name="button_green">#149623</color>
+  <color name="button_green_pressed">#16ce2b</color>
+  <color name="button_orange_pressed">#E68F00</color>
+  <color name="button_orange">#FF9F00</color>
+
+  <color name="primary_bright">#007aff</color>
+
+  <color name="text_shadow">#7F000000</color>
+  <color name="text_shadow_white">#FFFFFF</color>
+  <color name="bar_gray">#CACFD3</color>
+
+  <color name="button_blue_pressed">#3875D6</color>
+
+</resources>

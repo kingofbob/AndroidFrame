@@ -1,0 +1,35 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="action_bar_height">56dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="app_bar_height">160dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="bottombar_height">48dp</dimen>
+    <dimen name="bottombar_wechat_height">52dp</dimen>
+
+
+    <dimen name="search_box_radius">1dp</dimen>
+    <dimen name="card_corner_radius">5dp</dimen>
+    <dimen name="text_headers">20sp</dimen>
+    <dimen name="edittext_height">45dp</dimen>
+    <dimen name="edittext_small_text">10sp</dimen>
+    <dimen name="item_margin">8dp</dimen>
+    <dimen name="item_margin_half">8dp</dimen>
+    <dimen name="default_header_margin">56dp</dimen>
+    <dimen name="grid_column_width">96dp</dimen>
+    <dimen name="toolbar_text_size">20sp</dimen>
+
+    <dimen name="indicator_size">8dp</dimen>
+    <dimen name="indicator_spacing">2dp</dimen>
+    <dimen name="text_size_large">24sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="nav_main_text_size">20sp</dimen>
+    <dimen name="nav_text_size">16sp</dimen>
+</resources>

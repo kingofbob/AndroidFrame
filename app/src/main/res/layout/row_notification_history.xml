@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/bar_gray"
+            android:id="@+id/bg_color">
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/privateevents_icon"
+                android:id="@+id/event_logo"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="TextView TextView TextView TextView TextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/event_topic"
+                        android:textColor="@color/primary_orange"
+                        android:textStyle="normal|bold"
+                        android:textSize="16sp"
+                        android:layout_weight="1"
+                        android:maxLines="2"
+                        android:ellipsize="end" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/timeleft"
+                        android:gravity="right"
+                        android:textColor="@color/primary_darker" />
+                </LinearLayout>
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/location"
+                    android:layout_weight="1"
+                    android:textColor="@color/primary"
+                    android:layout_marginTop="5dp" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/description"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_gray"
+                    android:layout_marginTop="5dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:background="@color/bar_gray"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="10dp">
+
+    </FrameLayout>
+
+</FrameLayout>

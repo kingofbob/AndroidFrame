@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "725234853411",
+    "firebase_url": "https://eeducation-imu.firebaseio.com",
+    "project_id": "eeducation-imu",
+    "storage_bucket": "eeducation-imu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725234853411:android:0e06c273f2646d2a",
+        "android_client_info": {
+          "package_name": "com.tcitech.eeducation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725234853411-iaro4jkkq8t6jif92dd09pgm48orplak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tcitech.eeducation",
+            "certificate_hash": "6C5793991FEE390AB5654F1454C07CF24307AB43"
+          }
+        },
+        {
+          "client_id": "725234853411-qnjou9t9sgrd2lfalbdkmbvff0uvfab7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdNlEa_IMAnwrbddGentXfyDkr4DFQHT8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725234853411-qnjou9t9sgrd2lfalbdkmbvff0uvfab7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

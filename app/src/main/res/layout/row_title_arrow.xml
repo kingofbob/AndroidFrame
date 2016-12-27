@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"
+                android:textColor="@color/black"
+                android:layout_gravity="left|center_vertical"
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/values"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/primary" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/forward_arrow"
+            android:id="@+id/imageView12"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="20dp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_gravity="bottom"
+        android:background="@color/gray_very_light"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+    </FrameLayout>
+</FrameLayout>

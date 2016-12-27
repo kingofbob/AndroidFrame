@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/img_bg_fair">
+
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--  Email Label -->
+
+        <!--  Password Label -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/logo_black_text"
+                        android:id="@+id/imageView2"
+                        android:adjustViewBounds="true"
+                        android:layout_gravity="center"
+                        android:layout_width="250dp" />
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/username_password_bg">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                app:srcCompat="@drawable/userid_dark_icon"
+                                android:adjustViewBounds="true"
+                                android:layout_width="30dp" />
+
+                            <EditText
+                                android:id="@+id/contact"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="10dp"
+                                android:background="@android:color/transparent"
+                                android:ems="10"
+                                android:gravity="bottom"
+                                android:hint="@string/username"
+                                android:inputType="textEmailAddress"
+                                android:textColor="@color/primary_darker"
+                                android:textColorHint="@color/primary_dark"
+                                android:textCursorDrawable="@null" />
+
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:background="@color/primary_darker"
+                            android:elevation="0dp"
+                            android:layout_height="0.5dp">
+
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/imageView6"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                app:srcCompat="@drawable/password_dark_icon"
+                                android:adjustViewBounds="true"
+                                android:layout_width="30dp" />
+
+                            <EditText
+                                android:id="@+id/password"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="10dp"
+                                android:background="@android:color/transparent"
+                                android:ems="10"
+                                android:gravity="bottom"
+                                android:hint="@string/password"
+                                android:textColor="@color/primary_darker"
+                                android:textColorHint="@color/primary_dark"
+                                android:textCursorDrawable="@null"
+                                android:inputType="textPassword" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Button
+                        android:text="@string/login"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btn_login"
+                        android:background="@drawable/button_orange_bg"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/white"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/new_account"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/forgotpassword"
+                        android:visibility="gone" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:text="-"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/version"
+                            android:gravity="bottom|center_horizontal"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:textColor="@color/text_gray"
+                            android:layout_margin="10dp" />
+                    </FrameLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <include layout="@layout/loading_animation"/>
+
+    </FrameLayout>
+</ScrollView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/transparent"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:titleTextAppearance="@style/Toolbar_TextAppearance_White" />
+
+</FrameLayout>

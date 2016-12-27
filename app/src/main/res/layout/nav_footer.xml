@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <LinearLayout
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary_orange">
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="15dp">
+
+        <TextView
+            android:text="name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textSize="14sp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:text="@string/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_gravity="bottom|center_horizontal"
+        android:src="@drawable/img_profile_placeholder"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="1dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_margin="5dp" />
+</LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white">
+
+    </FrameLayout>
+</FrameLayout>

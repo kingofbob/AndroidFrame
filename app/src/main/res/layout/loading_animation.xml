@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--<fr.castorflex.android.circularprogressbar.CircularProgressBar xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:id="@+id/progress"-->
+    <!--android:layout_width="60dp"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_margin="20dp"-->
+    <!--android:background="@drawable/loader_background"-->
+    <!--android:indeterminate="true"-->
+    <!--android:padding="10dp"-->
+    <!--android:visibility="gone"-->
+    <!--app:cpb_colors="@array/loadingcolors"-->
+    <!--app:cpb_max_sweep_angle="360"-->
+    <!--app:cpb_min_sweep_angle="10"-->
+    <!--app:cpb_rotation_speed="0.5"-->
+    <!--app:cpb_stroke_width="4dp"-->
+    <!--app:cpb_sweep_speed="0.5" />-->
+
+
+
+<com.wang.avi.AVLoadingIndicatorView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/progress"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    app:indicatorColor="@color/primary"
+app:indicatorName="BallClipRotatePulseIndicator"
+    />
+
+<!--<com.lsjwzh.widget.materialloadingprogressbar.CircleProgressBar-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:id="@+id/progress"-->
+<!--android:layout_width="60dp"-->
+<!--android:layout_height="60dp"-->
+<!--android:layout_gravity="center"-->
+<!--app:mlpb_enable_circle_background="true"-->
+<!--app:mlpb_progress_color="@color/primary"-->
+    <!--/>-->
